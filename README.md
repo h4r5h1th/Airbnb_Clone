@@ -40,6 +40,3 @@ To run the Airbnb clone project locally, follow these steps:
 ### Features
 - Users can view property listings with detailed information including price, location, and amenities.
 - The search functionality enables users to filter properties based on location, date, and price range.
-
-## Contributing
-Contributions to the Airbnb clone project are welcome! If you have suggestions for improvements, feature requests, or would like to report any issues, please feel free to open an issue or submit a pull request.
