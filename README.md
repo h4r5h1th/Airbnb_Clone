@@ -8,12 +8,12 @@ To run the Airbnb clone project locally, follow these steps:
 
 1. **Clone the Repository**: 
     ```
-    git clone https://github.com/your-username/airbnb-clone.git
+    git clone https://github.com/h4r5h1th/Airbnb_Clone.git
     ```
 
 2. **Navigate to the Project Directory**:
     ```
-    cd airbnb-clone
+    cd Airbnb_Clone
     ```
 
 3. **Install Dependencies**:
