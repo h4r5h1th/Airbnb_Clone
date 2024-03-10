@@ -1,0 +1,23 @@
+.Topic_Parent_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: ease-in 0.25;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.Topic_Parent_div:active{
+    box-shadow: 0px 2px 0px 0px rgb(0, 0, 0);
+}
+
+.topic__image{
+    height: 20px;
+}
+
+.Topic_Title{
+    font-size: smaller;
+    text-align: center;
+    white-space: nowrap;
+}

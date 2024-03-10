@@ -1,0 +1,137 @@
+.OptionsBar_parent_member{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0px 40px;
+}
+
+.OptionsBar_Button_Holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    scroll-behavior: smooth;
+    gap: 30px;
+    padding-left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.OptionsBar_Loading{
+  
+  width: 90%;
+}
+
+.OptionsBar_Button_Holder::-webkit-scrollbar{
+    display: none;
+}
+
+.OptionsBar_Filter_Button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid rgb(215, 215, 215) 2px;
+    cursor: pointer;
+}
+
+.OptionsBar_topics{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    scroll-behavior: smooth;
+    gap: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.OptionsBar_topics::-webkit-scrollbar{
+    display: none;
+}
+
+.leftSlideButton{
+    margin-top: 50px;
+    margin-left: 10px;
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    top: 0px;
+    left: 0px;
+    border: solid black 1px;
+    outline: none;
+    z-index: 1;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightSlideButton{
+    margin-top: 50px;
+    margin-right: 10px;
+    position: absolute;
+    opacity: 1;
+    cursor: pointer;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    border: solid black 1px;
+    outline: none;
+    z-index: 1;
+    border-radius: 50px;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftSlideButton:hover{
+    box-shadow: 0px 0px 15px 0px rgba(5, 5, 5, 0.861);
+  }
+
+  .rightSlideButton:hover{
+    box-shadow: 0px 0px 15px 0px rgba(5, 5, 5, 0.861);
+  }
+
+  .OptionsBar_FilterText{
+    display: block;
+  }
+
+  @media only screen and (max-width: 1020px) {
+    .OptionsBar_parent_member{
+      padding: 0px 0px;
+    }
+    .OptionsBar_FilterText{
+      display: none;
+    }
+    .OptionsBar_Filter_Button{
+      margin-right: 15px;
+    }
+
+    .OptionsBar_Button_Holder{
+      padding-right: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .leftSlideButton{
+      display: none;
+    }
+    .rightSlideButton{
+      display: none;
+    }
+  }

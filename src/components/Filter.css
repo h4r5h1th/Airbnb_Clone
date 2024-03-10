@@ -1,0 +1,128 @@
+.Filter_Parent_component{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 49, 49, 0.6);
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Filter_Main_Setting{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    min-width: 250px;
+}
+
+.Filter_Heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px;
+}
+
+.Filter_Cross_icon{
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    cursor: pointer;
+}
+
+.Filter_Option_Price_range{
+    padding-top: 30px;
+}
+
+.Filter_Option_Price_range > h3{
+    padding-bottom: 10px;
+}
+
+.Filter_Option_Price_range > p{
+    padding-bottom: 15px;
+}
+
+.Filter_Range{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Filter_Minimum_Range{
+    position: relative;
+}
+
+.Filter_Minimum_Range_Top_Label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: smaller;
+}
+
+.Filter_Minimum_Currencysymbl{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+
+.Filter_Minimum_Range > input{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.Filter_Maximum_Range{
+    position: relative;
+}
+
+.Filter_Maximum_Range_Top_Label{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: smaller;
+}
+
+.Filter_Maximum_Currencysymbl{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+
+.Filter_Maximum_Range > input{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+.Filter_Done_Button_div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Filter_Done_Button{
+    margin-right: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
